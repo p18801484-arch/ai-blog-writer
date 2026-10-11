@@ -106,7 +106,7 @@ Write the complete blog now.
     try:
         client = get_gemini_client()
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="model="gemini-3-flash-preview",",
             contents=prompt,
             config=types.GenerateContentConfig(temperature=0.7)
         )
