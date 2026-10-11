@@ -183,3 +183,5 @@ if st.session_state.get("generated_blog"):
 # -----------------------------------
 st.divider()
 st.caption("AI Blog Writer | Python + Streamlit + Google Gemini")
+streamlit
+google-genai
